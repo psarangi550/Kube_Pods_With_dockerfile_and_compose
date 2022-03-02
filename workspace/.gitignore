@@ -1,0 +1,12 @@
+.cache
+.groovy
+.java
+jobs
+nodes
+plugins
+secrets
+updates
+userContent
+users
+war
+workflow-libs
