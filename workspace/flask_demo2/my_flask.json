@@ -1,0 +1,95 @@
+[
+    {
+        "Id": "sha256:80cf1d8f00c7d0e6ec5bf318b025260d5cb870a206ff9fa465bcd9f046dd73c0",
+        "RepoTags": [
+            "pratik186:new_flask_hello"
+        ],
+        "RepoDigests": [],
+        "Parent": "sha256:6498d899899a1a64e993df9c23ad4b755725f5788e14d0341844d27c00594282",
+        "Comment": "",
+        "Created": "2022-03-05T18:10:37.002987219Z",
+        "Container": "cafd7bc5dcdaac041b5245d985f6f8d09a7111220fd55fc5cbcdaa1ff8386d5a",
+        "ContainerConfig": {
+            "Hostname": "cafd7bc5dcda",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+            ],
+            "Cmd": [
+                "/bin/sh",
+                "-c",
+                "#(nop) ",
+                "CMD [\"flask_req_resp_demo.py\"]"
+            ],
+            "Image": "sha256:6498d899899a1a64e993df9c23ad4b755725f5788e14d0341844d27c00594282",
+            "Volumes": null,
+            "WorkingDir": "/tmp",
+            "Entrypoint": [
+                "python3"
+            ],
+            "OnBuild": null,
+            "Labels": {}
+        },
+        "DockerVersion": "20.10.12",
+        "Author": "",
+        "Config": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+            ],
+            "Cmd": [
+                "flask_req_resp_demo.py"
+            ],
+            "Image": "sha256:6498d899899a1a64e993df9c23ad4b755725f5788e14d0341844d27c00594282",
+            "Volumes": null,
+            "WorkingDir": "/tmp",
+            "Entrypoint": [
+                "python3"
+            ],
+            "OnBuild": null,
+            "Labels": null
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 420224924,
+        "VirtualSize": 420224924,
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/14161b24e92b7821be96ceaee4d8eba9bdf9ebc0f970a0e5c7562e045b3d0108/diff:/var/lib/docker/overlay2/03884a8b027ccf5e385d8fa80e62b0204f8b7c135d950931c84699a8c6af5376/diff:/var/lib/docker/overlay2/763e031f3d956961d9a5a4c8419c31ec49e3059f5ffbdd7119d80d2de601a815/diff:/var/lib/docker/overlay2/fd1bfbb8097f864a855b7014e9b8e561065ad76831e8c9acf0f7ebf1d72b28f2/diff:/var/lib/docker/overlay2/5d0e1cc58a0f13c41a990102f472f6e3e2edb63984949ccf7fd5ca457604b96b/diff",
+                "MergedDir": "/var/lib/docker/overlay2/95ed08f1c0ffdc5dc8488c6f9cc73a348096206f2f978b8aee94a3e020cb0147/merged",
+                "UpperDir": "/var/lib/docker/overlay2/95ed08f1c0ffdc5dc8488c6f9cc73a348096206f2f978b8aee94a3e020cb0147/diff",
+                "WorkDir": "/var/lib/docker/overlay2/95ed08f1c0ffdc5dc8488c6f9cc73a348096206f2f978b8aee94a3e020cb0147/work"
+            },
+            "Name": "overlay2"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:68a85fa9d77ecac87de23805c4be8766bda08a86787e324036cbcf84b62640fa",
+                "sha256:3ceb0e4a5d04b202be6816f3e54755184012c48ce0ae5cb598c8f3f914fc34e0",
+                "sha256:d94dc0bcc09c10824531d439b33573fc8f1641d7e9bb6504f8269b8a3305f9a3",
+                "sha256:eaad69eab2c1e188a2631c3f66e290b586532d7e184cfb816bc455c26635eb4a",
+                "sha256:9062c262de71eabe8e56ddf3dbf13c109c8e9d1cb55022560491a9349433a6df",
+                "sha256:0c6ff94d3e5838cc28f1a9f4031bccd9ba3c92bd1d4bd457a479fa3c28bc3ba5"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "2022-03-05T18:10:56.262557399Z"
+        }
+    }
+]
